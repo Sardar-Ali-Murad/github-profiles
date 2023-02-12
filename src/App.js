@@ -7,16 +7,7 @@ function App() {
     <AuthWrapper>
       <Router>
         <Routes>
-          <Route
-            path='/'
-            element={
-              <PrivateRoute>
-                <Dashboard />
-              </PrivateRoute>
-            }
-          />
-          <Route path='login' element={<Login />} />
-          <Route path='*' element={<Error />} />
+          <Route path='/' element={<Dashboard/>}/>
         </Routes>
       </Router>
     </AuthWrapper>
@@ -24,3 +15,15 @@ function App() {
 }
 
 export default App;
+
+   {/* <Route
+            path='/'
+            element={
+              <PrivateRoute>
+                <Dashboard />
+              </PrivateRoute>
+            }
+          />
+          <Route path='login' element={<Login />} /> 
+          <Route path='*' element={<Error />} />
+        </Routes>  */}
