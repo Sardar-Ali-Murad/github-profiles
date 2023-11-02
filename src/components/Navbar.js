@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <Wrapper>
-      {isUser && user.picture && <img src={user.picture} alt={user.name} />}
+      {/* {isUser && user.picture && <img src={user.picture} alt={user.name} />}
       {isUser && user.name && (
         <h4>
           Welcome, <strong>{user.name.toUpperCase()}</strong>
@@ -30,7 +30,7 @@ const Navbar = () => {
         </button>
       ) : (
         <button onClick={loginWithRedirect}>login</button>
-      )}
+      )} */}
     </Wrapper>
   );
 };

@@ -109,7 +109,7 @@ const Wrapper = styled.article`
       }
     }
     a {
-      color: var(--clr-primary-5);
+      // color: var(--clr-primary-5);
       transition: var(--transition);
       svg {
         color: var(--clr-grey-5);

@@ -16,14 +16,4 @@ function App() {
 
 export default App;
 
-   {/* <Route
-            path='/'
-            element={
-              <PrivateRoute>
-                <Dashboard />
-              </PrivateRoute>
-            }
-          />
-          <Route path='login' element={<Login />} /> 
-          <Route path='*' element={<Error />} />
-        </Routes>  */}
+  

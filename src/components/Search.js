@@ -39,7 +39,7 @@ const Search = () => {
             )}
           </div>
         </form>
-        <h3>requests : {requests} / 60</h3>
+        {/* <h3>requests : {requests} / 60</h3> */}
       </Wrapper>
     </section>
   );
@@ -88,7 +88,7 @@ const Wrapper = styled.div`
       cursor: pointer;
       &:hover {
         background: var(--clr-primary-8);
-        color: var(--clr-primary-1);
+        color: white;
       }
     }
 
